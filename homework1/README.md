@@ -10,10 +10,12 @@ Change to the homework1 directory:
 `PYTHONPATH=. pytest tests/test_task(task number).py -v`
 
 For example, to run the following for task1, the command would be
+
 `PYTHONPATH=. pytest tests/test_task1.py -v`
 
 To run all pytests:Pytests
 Make sure you are in the cs4300/homework1 directory or else the following 
+
 `PYTHONPATH=. pytest tests -vv`
 
 ## Acknowledgments
