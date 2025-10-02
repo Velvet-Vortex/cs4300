@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import Movie
 
-# Create your views here.
+class MovieViewSet(viewsets.ModelViewSet):
+    '''
+    API endpoint that allows movies to be created, viewed, edited, and destroyed (CRUD)
+    '''
+    queryset = Movie.objects.all()
