@@ -6,4 +6,4 @@ TBD
 
 ## Acknowledgements
 The following parts of this assignment were assisted by [ChatGPT](https://chat.openai.com/) from OpenAI:
-* Understanding Django REST framework model view sets
+* Understanding Django REST framework viewsets and implementing generic viewsets
